@@ -57,7 +57,7 @@ function main() {
       CONFIG.GEMINI.PROMPTS.PAPER_SUMMARY
     );
     // Gemini APIのレートリミット対策（15 req/min）
-    Utilities.sleep(500);
+    Utilities.sleep(13000);
     return { ...paper, summary };
   });
 
