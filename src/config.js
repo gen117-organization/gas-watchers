@@ -7,7 +7,7 @@ const CONFIG = {
     SHEET_NAME: "論文",
     MAX_RESULTS: 30,
     QUERY:
-      'all:(microservice OR "code clone" OR co-modification OR "software evolution" OR "technical debt" OR dependency)',
+      '(cat:cs.SE OR cat:cs.PL OR cat:cs.DC) AND all:(microservice OR "code clone" OR co-modification)',
     WEBHOOK_PROPERTY: "DISCORD_WEBHOOK_URL_PAPER",
   },
   GEMINI: {
