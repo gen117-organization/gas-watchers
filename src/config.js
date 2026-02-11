@@ -11,7 +11,7 @@ const CONFIG = {
     WEBHOOK_PROPERTY: "DISCORD_WEBHOOK_URL_PAPER",
   },
   GEMINI: {
-    MODEL: "gemini-2.0-flash",
+    MODEL: "gemini-2.5-flash",
     PROMPTS: {
       PAPER_SUMMARY:
         "以下の論文のアブストラクトを3行以内で日本語要約してください。\n\n",
